@@ -17,7 +17,7 @@ namespace QAAssignment2.Tests
             Assert.AreEqual("invalid", result);
         }
 
-        /*[Test]
+        [Test]
         public void Analyze_InputMinus3AndMinus4AndMinus5_ReturnInvalid()
         {
             string result = TriangleResolver.Analyze(-3, -4, -5);
@@ -31,7 +31,7 @@ namespace QAAssignment2.Tests
             Assert.AreEqual("invalid", result);
         }
 
-        [Test]
+        /*[Test]
         public void Analyze_Input3And4And5_ReturnScalene()
         {
             string result = TriangleResolver.Analyze(3, 4, 5);
