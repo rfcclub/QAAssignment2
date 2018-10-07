@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QAAssignment2
 {
-    public static class TriangleResolver
+    public static class TriangleSolver
     {
         public static string Analyze(int s1, int s2, int s3)
         {
@@ -25,7 +25,7 @@ namespace QAAssignment2
                     }
                     else
                     {
-                        return "scalene";
+                        result = "scalene";
                     }
                 }
             }

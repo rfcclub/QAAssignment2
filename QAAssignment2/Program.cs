@@ -20,6 +20,7 @@ namespace QAAssignment2
             int result = 0;
             do
             {
+                Console.WriteLine("---------------------------");
                 Console.WriteLine("1.Enter triangle dimensions");
                 Console.WriteLine("2.Exit");
                 Console.Write("Enter your choice:");
@@ -31,7 +32,7 @@ namespace QAAssignment2
                         int s1 = GetNumber("side 1");
                         int s2 = GetNumber("side 2");
                         int s3 = GetNumber("side 3");
-                        string analyzeResult = TriangleResolver.Analyze(s1, s2, s3);
+                        string analyzeResult = TriangleSolver.Analyze(s1, s2, s3);
                         if (analyzeResult.Equals("invalid"))
                         {
                             Console.WriteLine("Invalid triangle");
